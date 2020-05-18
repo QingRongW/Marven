@@ -1,0 +1,3000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ErrorMappings>
+<ErrorMapping otaErrorCode="509" padisErrorCode="100" padisSet="9321">
+<ErrorMessage>Invalid Place of Departure Code</ErrorMessage>
+<ContainsList>
+<Contains>Invalid/missing board point</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="510" padisErrorCode="101" padisSet="9321">
+<ErrorMessage>Invalid Place of Destination Code</ErrorMessage>
+<ContainsList>
+<Contains>Invalid/missing off point</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="508" padisErrorCode="104" padisSet="9321">
+<ErrorMessage>Invalid Reservation Booking Designator</ErrorMessage>
+<ContainsList>
+<Contains>Invalid/missing reservation booking designator</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="248" padisErrorCode="107" padisSet="9321">
+<ErrorMessage>Invalid Airline Designator/Vendor Supplier</ErrorMessage>
+<ContainsList>
+<Contains>Invalid airline code</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="181" padisErrorCode="109" padisSet="9321">
+<ErrorMessage>Invalid Country Code</ErrorMessage>
+<ContainsList>
+<Contains>Invalid country code</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="499" padisErrorCode="114" padisSet="9321">
+<ErrorMessage>Invalid Flight Number</ErrorMessage>
+<ContainsList>
+<Contains>Flight number and origin/destination cities do not match</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="497" padisErrorCode="368" padisSet="9321">
+<ErrorMessage>Not authorized</ErrorMessage>
+<ContainsList>
+<Contains>Authorization error</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="356" padisErrorCode="120" padisSet="9321">
+<ErrorMessage>Invalid Action Code</ErrorMessage>
+<ContainsList>
+<Contains>Invalid action/status code</Contains>
+<Contains>INVALID ACTION CODE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="356" padisErrorCode="120" padisSet="9321">
+<ErrorMessage>Invalid Action Code</ErrorMessage>
+<ContainsList>
+<Contains>Invalid action/status code</Contains>
+<Contains>ACTION CODE NOT COMBINABLE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9321">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>UNABLE TO CHANGE PAST SEGMENT</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="446" padisErrorCode="244" padisSet="9321">
+<ErrorMessage>Not allowed on marketing flights</ErrorMessage>
+<ContainsList>
+<Contains>Service request not allowed</Contains>
+<Contains>NOT ALLOWED ON MARKETING FLIGHT</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="356" padisErrorCode="120" padisSet="9321">
+<ErrorMessage>Invalid Action Code</ErrorMessage>
+<ContainsList>
+<Contains>Invalid action/status code</Contains>
+<Contains>INVALID ACTION CODE FOR XX</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>NUMBER OF SEGMENTS GIVEN EXCEED LIMIT</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>FUNCTIONALITY NOT DEFINED - CHECK BUSINESS RULE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>CHECK ITINERARY/PASSENGER DATA</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>NOT ALLOWED - REBOOK OF INACTIVE SEGMENT(S)</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="32" padisSet="9321">
+<ErrorMessage>Already boarded</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>RESTRICTED - PAX(S) ACCEPTED OR BOARDED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="733" padisErrorCode="292" padisSet="9321">
+<ErrorMessage>Segment Sells Restricted</ErrorMessage>
+<ContainsList>
+<Contains>Restricted</Contains>
+<Contains>RESTRICTED - PLEASE CONTACT AIRLINE HELPDESK</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="190" padisSet="9321">
+<ErrorMessage>Invalid Processing Indicator</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>INVALID PROCESSING INDICATOR</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9321">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>NUMBER OF PASSENGERS EXCEEDS NINE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="406" padisErrorCode="461" padisSet="9321">
+<ErrorMessage>Ineligible for Requested Action -Group PNR not allowed</ErrorMessage>
+<ContainsList>
+<Contains>Invalid for convention/group</Contains>
+<Contains>NOT VALID FOR GROUP PNR</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>SPLIT PNR - DIFFERENT BOOKING CODES REQUIRED FOR PASSENGERS</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="497" padisErrorCode="290" padisSet="9845">
+<ErrorMessage>Travel authorization denied</ErrorMessage>
+<ContainsList>
+<Contains>Authorization error</Contains>
+<Contains>UNAUTHORIZED AGENT RIGHTS</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>UNAUTHORISED FOR THIS AIRLINE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="422" padisSet="9321">
+<ErrorMessage>Not Available Due to Traffic Restrictions</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>NOT AVAILABLE DUE TO TRAFFIC RESTRICTION</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="113" padisErrorCode="367" padisSet="9321">
+<ErrorMessage>No active itinerary</ErrorMessage>
+<ContainsList>
+<Contains>Mandatory booking details missing</Contains>
+<Contains>NO ITINERARY</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="73Q" padisSet="9321">
+<ErrorMessage>Invalid/missing flight segment data</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>SPECIFIED SEG NOT FLIGHT SEG</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="320" padisSet="9321">
+<ErrorMessage>Invalid segment status</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>UNABLE TO REPLICATE - PASSIVE SEGMENT</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="320" padisSet="9321">
+<ErrorMessage>Invalid segment status</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>NOT ALLOWED : MARRIED SEGMENTS</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="320" padisSet="9321">
+<ErrorMessage>Invalid segment status</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>SEGMENT STATUS HAS BEEN CHANGED - END TRANSACTION FIRST</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="320" padisSet="9321">
+<ErrorMessage>Invalid segment status</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>TIMES HAVE BEEN CHANGED - END TRANSACTION FIRST</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="320" padisSet="9321">
+<ErrorMessage>Invalid segment status</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>UNABLE TO REPLICATE - OPEN SEGMENT</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="320" padisSet="9321">
+<ErrorMessage>Invalid segment status</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>UNABLE TO REPLICATE - INFORMATIONAL SEGMENT</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="76I" padisSet="9321">
+<ErrorMessage>Invalid segment select</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>SEGMENT DOES NOT EXIST</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="353" padisErrorCode="102" padisSet="9321">
+<ErrorMessage>Invalid/Missing Departure Date</ErrorMessage>
+<ContainsList>
+<Contains>Departure date is past dated</Contains>
+<Contains>CHECK DATE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="419" padisSet="9321">
+<ErrorMessage>Flight is Boarding</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>FLIGHT BOARDING</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>RESTRICTED-TICKETLESS ACCESS CARRIER-NO PNR CHANGE SUPPORTED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="322" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>No availability</Contains>
+<Contains>FLIGHT/DATE/SEGMENT/CLASS UNAVAILABLE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>RESTRICTED - TICKETLESS ACCESS CARRIER - PLS REFER TO HETLA</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="7" padisErrorCode="130" padisSet="9321">
+<ErrorMessage>Invalid Origin and Destination Pair</ErrorMessage>
+<ContainsList>
+<Contains>Route code invalid</Contains>
+<Contains>INVALID ORIGIN AND DESTINATION PAIR</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="635" padisErrorCode="913" padisSet="9321">
+<ErrorMessage>Item/data not found or data not existing in processing host</ErrorMessage>
+<ContainsList>
+<Contains>Data not found</Contains>
+<Contains>FLIGHT NOT FOUND</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="446" padisErrorCode="119" padisSet="9321">
+<ErrorMessage>Shuttle Flight Does Not Allow Reservation</ErrorMessage>
+<ContainsList>
+<Contains>Service request not allowed</Contains>
+<Contains>SHUTTLE FLIGHT DOES NOT ALLOW RESERVATION</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>RESTRICTED - PAX(S) BOARDED OR CHECKED-BAGS</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="531" padisErrorCode="411" padisSet="9321">
+<ErrorMessage>Flight Does Not Operate on Date Requested</ErrorMessage>
+<ContainsList>
+<Contains>Flight does not operate on date requested</Contains>
+<Contains>FLIGHT DOES NOT OPERATE ON DATE REQUESTED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="4" padisErrorCode="418" padisSet="9321">
+<ErrorMessage>Flight has Departed</ErrorMessage>
+<ContainsList>
+<Contains>Cannot access - service departed</Contains>
+<Contains>FLIGHT DEPARTED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="172" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Requested action not possible</Contains>
+<Contains>REBOOK REJECTED: SEGMENT NOT AVAILABLE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="321" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Required field missing</Contains>
+<Contains>DOCUMENT CANNOT BE EXCHANGED AS MANDATORY ELEMENT MISSING</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="321" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Required field missing</Contains>
+<Contains>MISSING DATA IN ORIGINAL DOCUMENT FOR FO GENERATION</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="150" padisErrorCode="85" padisSet="9321">
+<ErrorMessage>EMD – one or more coupons are not exchangeable</ErrorMessage>
+<ContainsList>
+<Contains>Changes are not permitted</Contains>
+<Contains>DOCUMENT BEING EXCHANGED IS NON EXCHANGEABLE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="356" padisErrorCode="120" padisSet="9321">
+<ErrorMessage>Invalid Action Code</ErrorMessage>
+<ContainsList>
+<Contains>Invalid action/status code</Contains>
+<Contains>INVALID COUPON STATUS FOR VOLUNTARY CHANGE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="150" padisErrorCode="229" padisSet="9321">
+<ErrorMessage>Change not performed on subsequent flight(s)</ErrorMessage>
+<ContainsList>
+<Contains>Changes are not permitted</Contains>
+<Contains>SUBSEQUENT EXCHANGES NOT ALLOWED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="459" padisErrorCode="177" padisSet="9321">
+<ErrorMessage>The SSR Name(s) do not Match the Name(s) in the Name field of the PNR or Contains Invalid Characters</ErrorMessage>
+<ContainsList>
+<Contains>Invalid request code</Contains>
+<Contains>SSR NOT CONSISTENT WITH EMD</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="320" padisErrorCode="72G" padisSet="9321">
+<ErrorMessage>Invalid point of sale option</ErrorMessage>
+<ContainsList>
+<Contains>Invalid value</Contains>
+<Contains>INVALID POINT OF SALE point of sale</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="320" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Invalid value</Contains>
+<Contains>INVALID REPETITIVE OPTION</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="860" padisErrorCode="492" padisSet="9321">
+<ErrorMessage>Invalid passenger selection</ErrorMessage>
+<ContainsList>
+<Contains>Passenger details error</Contains>
+<Contains>INVALID PASSENGER ASSOCIATION</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="118" padisSet="9321">
+<ErrorMessage>System Unable to Process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>EXCEEDS MAXIMUM FARE DISCOUNT CODES</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="118" padisSet="9321">
+<ErrorMessage>System Unable to Process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>SINGLE SELECTION CODE ONLY</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="321" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Required field missing</Contains>
+<Contains>NEED PNR</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="748" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Invalid corporate ID</Contains>
+<Contains>INVALID CORPORATE CODE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="20" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Number of passengers invalid</Contains>
+<Contains>CHECK PASSENGER NUMBER</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="497" padisErrorCode="368" padisSet="9321">
+<ErrorMessage>Not authorized</ErrorMessage>
+<ContainsList>
+<Contains>Authorization error</Contains>
+<Contains>AMADEUS TICKET CHANGER NOT AUTHORIZED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="60" padisErrorCode="49" padisSet="9845">
+<ErrorMessage>Ticket number invalid</ErrorMessage>
+<ContainsList>
+<Contains>Ticket numbers missing or invalid</Contains>
+<Contains>PROVIDE TICKET NUMBER TO EXCHANGE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="150" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Changes are not permitted</Contains>
+<Contains>MIXED TICKET TYPES NOT ALLOWED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="150" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Changes are not permitted</Contains>
+<Contains>DOCUMENT NUMBER NOT ELIGIBLE FOR AMADEUS TICKET UPDATE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="321" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Required field missing</Contains>
+<Contains>PLEASE SELECT COUPON TO EXCHANGE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="878" padisErrorCode="718" padisSet="9321">
+<ErrorMessage>Invalid or missing document type</ErrorMessage>
+<ContainsList>
+<Contains>Missing/incorrect document type</Contains>
+<Contains>ARC INFORMATIVE ONLY – ORIGINAL DOCUMENT NOT REPORTED TO ARC</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="879" padisErrorCode="364" padisSet="9321">
+<ErrorMessage>Invalid ticket/document number</ErrorMessage>
+<ContainsList>
+<Contains>Missing/incorrect document number</Contains>
+<Contains>DOCUMENT NUMBER NOT PRIMARY</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="150" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Changes are not permitted</Contains>
+<Contains>DOCUMENT NUMBER NOT ELIGIBLE FOR AMADEUS TICKET CHANGER</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="118" padisSet="9321">
+<ErrorMessage>System Unable to Process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>PARTIAL SELECTION OF PASSENGERS NOT ALLOWED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="320" padisErrorCode="73Q" padisSet="9321">
+<ErrorMessage>Invalid/missing flight segment data</ErrorMessage>
+<ContainsList>
+<Contains>Invalid value</Contains>
+<Contains>CHECK SEGMENT NUMBER</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="118" padisSet="9321">
+<ErrorMessage>System Unable to Process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>MAXIMUM NUMBER OF SEGMENTS EXCEEDED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="356" padisErrorCode="452" padisSet="9321">
+<ErrorMessage>Ineligible for claim - contains flown segment</ErrorMessage>
+<ContainsList>
+<Contains>Invalid action/status code</Contains>
+<Contains>INVALID - PAST DATE SEGMENT</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="321" padisErrorCode="467" padisSet="9321">
+<ErrorMessage>Flight segment not found in carrier’s PNR</ErrorMessage>
+<ContainsList>
+<Contains>Required field missing</Contains>
+<Contains>PROVIDE SEGMENTS TO EXCHANGE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="367" padisErrorCode="294" padisSet="9321">
+<ErrorMessage>Invalid Format</ErrorMessage>
+<ContainsList>
+<Contains>Invalid format</Contains>
+<Contains>INVALID FORMAT</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="320" padisErrorCode="12" padisSet="0088">
+<ErrorMessage>Invalid value</ErrorMessage>
+<ContainsList>
+<Contains>Invalid value</Contains>
+<Contains>INVALID: MULTIPLE REFERENCE TO A TICKET/SEGMENT</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="528" padisErrorCode="327" padisSet="9321">
+<ErrorMessage>Invalid segment data in itinerary</ErrorMessage>
+<ContainsList>
+<Contains>Invalid segment data in itinerary</Contains>
+<Contains>INVALID ITINERARY</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="118" padisSet="9321">
+<ErrorMessage>System Unable to Process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>UNABLE TO PROCESS AVAILABILITY</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="183" padisErrorCode="290" padisSet="9845">
+<ErrorMessage>Travel authorization denied</ErrorMessage>
+<ContainsList>
+<Contains>Agency suspended - access denied</Contains>
+<Contains>ACCESS TO DOCUMENT DENIED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="60" padisErrorCode="49" padisSet="9845">
+<ErrorMessage>Ticket number invalid</ErrorMessage>
+<ContainsList>
+<Contains>Ticket numbers missing or invalid</Contains>
+<Contains>DOCUMENT NUMBER NOT ELIGIBLE FOR AMADEUS TICKET CHANGER</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="356" padisErrorCode="396" padisSet="9321">
+<ErrorMessage>Invalid ticket/document coupon status</ErrorMessage>
+<ContainsList>
+<Contains>Invalid action/status code</Contains>
+<Contains>INVALID COUPON STATUS FOR ATC TRANSACTION</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="794" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>FARE CALCULATION NOT VALID FOR ATC TRANSACTION</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>NO DATA IN SERVICE TABLE FOR SERVICES</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="497" padisErrorCode="368" padisSet="9321">
+<ErrorMessage>Not authorized</ErrorMessage>
+<ContainsList>
+<Contains>Authorization error</Contains>
+<Contains>ATC NOT AUTHORIZED – MCO ELEMENT CANNOT BE CREATED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="320" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Invalid value</Contains>
+<Contains>INVALID REASON FOR ISSUANCE/CHARGE CODE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="321" padisErrorCode="76H" padisSet="9321">
+<ErrorMessage>Unable to process requested option</ErrorMessage>
+<ContainsList>
+<Contains>Required field missing</Contains>
+<Contains>MISSING TICKET DATA FOR ATC EXCHANGE, REISSUE MANUALLY</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>VOLUNTARY EXCHANGE AFETR INVOLUNTARY, ORIGINAL TICKET MISSING</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>INVALID NONREF AMOUNT IN FE LINE IN THE TICKET, REISSUE MANUALLY</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>CHANGE TO OPEN SEGMENT NOT ALLOWED - REISSUE MANUALLY</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>INVALID FO ELEMENT IN THE TICKET, REISSUE MANUALLY</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>CHANGE TO OPEN SEGMENT WITHOUT DATE NOT ALLOWED-REISSUE MANUALLY</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>PRICING REQUEST REJECTED DUE TO MARRIED SEGMENT CONTROL</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>SOME/ALL SERVICES HAVE NOT BEEN REPRICED FOR PASSENGER</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNABLE TO FARE - PRICE MANUALLY - UNABLE TO RE-PRICE / ,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /*NO FARES/RBD/CARRIER/PASSENGER TYPEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MANUAL TARIFICATIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO CURRENT FARE IN SYSTEMUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CALCULATE MILEAGEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /AIRPORT FARES MAY APPLY AT:UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ROUTING OR CONNECTION NOT FOUND UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO TPM FOR ROUTEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO PRODUCTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TAX ROUNDING UNIT MISSINGUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /*ATTN - ISSUE SEPARATE TICKETSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TOO MANY PRODUCTS * SELECT CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ROUTEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /VARIABLE DATEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /*ONE WAY PLUS SURFACEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MISSING BANKERS RATEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /DIFFERENT CLASS TRIPUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNABLE TO FARE - TOO MANY SAME CITY SEGMENTSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ORIGINAL FARE CONDITIONS NOT FOUNDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARES FOR . CLASSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /*ISSUE SEPARATE TICKETS BRKUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /RJT MISSING TPM FOR TAX CALCUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /RJT FLIGHT/PROD OVERFLOWUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARES POINT OF ORIGINUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARES FOR HIGHEST DIRECT FARE CHECKUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARES FOR SPECIFIED CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /SALE NOT PERMITTED IN BRAZILUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /*NOTES NEEDS DAY/MON VALUE/DI*UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /*PARAM NEEDS C/R/CN/Z*UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /*ATTN LOCAL CURRENCY CALCULATION MAY APPLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /FOLLOWING PARAMETER AND CONDITION NOT VALIDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /*SPECIFY MANDATORY BREAK POINTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TOO MANY SEGMENTS IN TRIPUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /*DISCOUNT MAY APPLY CHECK TARIFFUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ROE NOT AVAILABLE FOR CURRENCYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /*ADJACENTS CITIES AT ORIGIN OR DESTINATIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /AT LEAST ONE CATEGORY 31/VOLUNTARY CHANGES NOT FILED BY CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REISSUE NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TEMPORARY RESTRICTION PRICE MANUALLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /XXX NOT ALLOWED - VERIFY CURRENCY OF SALEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /DISCOUNT COMBINATION NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJECT DISCOUNTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARES FOR PASSENGER TYPE REQUESTEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CURRENCY OVERFLOWUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO CURRENT FARE IN SYSTEMUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MANUAL MANIPULATION OF BANK SELLING RATE NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CURRENCY FARE RESTRICTED FOR ORIGIN CITYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARE FOR BOOKING CODE-TRY OTHER PRICING OPTIONSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARES FOR FARE TYPE REQUESTEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ROUTING DATA UNAVAILABLE-CHECK WITH CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /FARES NOT COMBINABLE FOR PASSENGER TYPE REQUESTEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO VALID FARE/RULE COMBINATIONS FOR PRICINGUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /HIP MAY APPLY/UNABLE TO VERIFYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK SEGMENT/FARE BASIS CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ISSUE SEPARATE TICKETS-MULTIPLE CURRENCIES APPLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /OPEN SEGMENTS NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CURRENCY VALUE GREATER THAN BASE FAREUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /AMOUNT PROCESS INVALID - RESIDUAL TAXESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNABLE TO PROCESS / INTERLINE OR MULTI TAXUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /DECIMAL PLACE INCORRECT FOR CURRENCYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK TRAP FORMAT:INVALID MARKET REQUESTEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /COMPANION FARES EXIST - ODD NUMBER PSGRS - DIVIDE PNRUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TOTAL AMOUNT TOO BIG TO DISPLAYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CARRIER RESTRICTED ACCESS TO CAT 31/VOLUNTARY CHANGESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ATTN* CHANGE TO NO STOPOVER MAY VARY FAREUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /VERIFY CURRENCY OPTIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /RESIDUAL TAXES MAY APPLY - CHK TAXESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK FORMATUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT ACTION CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT FLIGHT NUMBERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT CLASSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT DATEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT DEPARTURE CITYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT HOURUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT DATE CHANGE INDICATORUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT ARRIVAL CITYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT NUMBER OF INTERMEDIATE STOPSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT STOPOVER CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT ROUTE CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT EQUIPMENT TYPEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT FARE BASIS CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CONFLICTING OPTIONS USEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /COMPANION PROCESSING PLEASE SPECIFY CLASSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ENTRY REQUIRES PREVIOUS PRICING/FARE DISPLAY REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /RJT CHRONOLOGICAL ORDERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /AIRPORT/CITY CODE NOT IN SYSTEMUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MANUAL TARIFICATIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNKNOWN CRT CITY UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT IDENTICAL CITY SEGMENTSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /RJT TOO MANY SURFACE SEGMENTSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /FUTURE DATE TKTNG NOT PERMITTEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /PAST DATE TKTNG NOT PERMITTED - CHK DATESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /BK OPTION NOT ALLOWED IN OPEN CLASSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNABLE TO PROCESS/INTERLINE OR MULTI-TAXUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /EQUIPMENT CODE NOT FOUNDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /DOJ NOT ALLOWED IN NEGOTIATED PRICINGUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK TRAP FORMAT:ITINERARY OVER SEGMNTSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK TRAP FORMAT:NO PARAMETERS INPUTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ATTN INDICATE STOPOVER UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK TRAP FORMAT:INVALID FARE REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK TRAP FORMAT:INVALID MARKET REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK TRAP FORMAT:INVALID CARRIER REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK TRAP FORMAT:NO BOOKING CODE INPUTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK TRAP FORMATUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /PRICING BY FARE BASIS OPTION NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID TRAP REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNABLE TO FARE - CHECK BOOKING CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MANDATORY BOOKING CLASS ON SEGMENTSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /RJT RESERVATION DATEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /RJT AVAILABILITYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CARRIERS WITH DIFFERENT PRICING LOGICS CANNOT BE MIXEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID REQUEST TYPEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID PASSENGER TYPE CODE UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID DISCOUNTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /PAX TYPE RESTRICTED USE VALID PAX TYPEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVLD PSGR COMBINATIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CATEGORYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /EXCEEDS MAXIMUM FARE DISCOUNT CODESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID PARTNERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /BAD FORMAT IN /RUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT DISCOUNT NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT TOO MUCH ADDITIVE DISCOUNTSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT BAD DATEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /DATE OVERRIDE OPTION NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT FARE RULE IN /RUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /VERIFY RULE OPTION - UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT CORPORATE NUMBERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT NEGO OPTIONS NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT CURRENCY CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT VALIDATING CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT PAYMENT OPTIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT WITHHOLD-EXEMPT TAXESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REJT ALTERNATE BOOKING CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MAXIMUM OF 3 REQUEST TYPES ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CONFLICTING RULE OPTIONS NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MAXIMUM OF 5 RULE OPTIONS ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK FORMAT - REFER TO HELP FOR THIS TRANSACTIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK FORMAT RULE PARAMETER MISSINGUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK FORMAT - SEPARATE MULTIPLE REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK FORMAT - ZO- ENTRYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TRANSACTION NOT VALID FOR USERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /PERCENT VALUE MUST BE 0-100 WITHOUT DECIMALUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /B OR T OR NUMERIC MUST FOLLOW ZOUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CURRENCY AMOUNT EXCEEDS 11 DIGIT MAX LENGTHUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /DECIMAL PLACE INCORRECT FOR CURRENCYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TICKET DESIGNATOR TOO LONG TO PROCESSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK FORMAT - BASE/TOTAL ONLY WITH AMOUNT DISCUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ENTRY CONTAINS DUPLICATE SEGMENTSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK SEGMENT NUMBERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK FORMAT - AT- ENTRYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /AT- ENTRY FORMAT NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MAXIMUM 8 WITHHOLD/ADD TAXES ENTRIESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID ARC NUMBERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID PF NUMBERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MANUAL MANIPULATION OF TAXES NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /DISCOUNT PRICING OPTION NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK FORMAT - AC- ENTRYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK FORMAT - WC- ENTRYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CORPORATE NAME NOT FOUNDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /FORMAT NEEDS CORPORATE CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO RECOMMENDATION FOUND WITH LOWER OR EQUAL PRICEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNABLE TO PRICE CURRENT PNR - NO ALTERNATE ITINERARY FOUNDUNABLE TO RE-PRICE /</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNABLE TO PRICE CURRENT PNRUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARE FOUND FOR REQUESTED ITINERARYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /BEST BUY HANDLER DOWNUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK ACT CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK CURRENCYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CKECK FORMATUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID CARRIER CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /VERIFY DATE -UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /VERIFY DATE - RETURN DATE IS PRIOR TO ORIGINATION DATEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNKNOWN CITY/AIRPORTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID GLOBAL DIRECTIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ENTRY REQUIRES PREVIOUS FARE DISPLAY REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MAXIMUM OF 3 AIRLINE CODES ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NYY NOT VALID FOR YY REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MAXIMUM OF 1 GLOBAL DIRECTION ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ONLY NUC FOR DISP OPTIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK FORMAT INVALID CITY PAIRUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK FORMAT - INVALID WALMART REQUEST :UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CONFLICTING OPTIONS USEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ACCESS DENIEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK DIAG FORMATUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /OPTION NOT ALLOWED IN /DUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID ENTRYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /VERIFY ITINERARYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MULTIPLE PASSENGER TYPE CODE NOT ALLOWED WITH DIAG OPTIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID FORMATUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /DIAG PROCESS UNAVAILABLE FOR THIS FAREUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ENTER DIAG SEGMENT SELECTION OR BRKPUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /BOOKING CODE OVERRIDE NOT ALLOWED IN OPEN CLASSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REQUESTED CABIN NOT OFFEREDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REQUESTED CABIN NOT AVAILABLEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID STOPOVERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE //H INCOMPATIBLE WITH /P, /S OR /IUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID CLASSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TRAPS TOOL IS DECOMMISSIONED - USE FARES DIAGNOSTIC PRODUCTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FLIGHT FOUND FOR REQUESTED ITINERARYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO JOURNEY FOUND FOR REQUESTED ITINERARYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID COMMERCIAL FARE FAMILYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARE FAMILY FOUND FOR REQUESTED COMMERCIAL FARE FAMILYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARE FOUND FOR REQUESTED FARE FAMILYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /SPECIFY TIMES OF ARRIVAL/DEPARTURE TO AVOID OVERLAPPINGUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ONE WAY RE-PRICING NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID POINT OF JOURNEY ORIGINUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK SEQUENCE NUMBERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK PASSENGER NUMBERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK PASSENGER INFORMATIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK PASSENGER ASSOCIATIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /FEE CALCULATION FAILURE - CHECK CURRENCYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID PSR - PLEASE USE VALID PSR OR PRICE WITH /NF OPTIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID SFM SECURITY/OFP SETTINGS - CONTACT ADMINUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID PSR - PLEASE USE VALID PSRUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /SFM - TRANSACTION FEE USAGE RESTRICTEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /* RW - SPECIFIC PROCESS : VERIFY INPUT *UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /* CT - SPECIFIC PROCESS : VERIFY INPUT *UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ORIGINAL OFFICE ID NOT FOUNDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHANGE OF PTC BETWEEN ISSUE AND REISSUE IS FORBIDDENUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ISSUE FARE WAS UNIFARE, PLEASE REQUEST AT LEAST UNIFAREUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ISSUE FARE WAS PUBLIC, PLEASE REQUEST AT LEAST PUBLIC FARESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /PLEASE REQUEST SAME CORPORATE CONTRACT AS FOR ISSUEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ORIGINAL FARE CALC MANUALLY MODIFIED - REISSUE MANUALLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REQUESTED CLASS NOT AVAILABLEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REQUESTED CLASS NOT OFFEREDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /RJT xxx CODE ONLY VALID AFTER PRICING/BEST BUYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO RECOMMENDATION FOUND WITH HIGHER OR EQUAL PRICEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TKTS WITH SAME PTC BUT DIFFERENT PRICINGS - TRY SEPARATELYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ITINERARY DISCREPANCY BETWEEN TKTS - TRY SEPARATELYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TKTS NOT PRICED IN THE SAME PLACE - TRY SEPARATELYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TKTS NOT PRICED AT THE SAME DATE/TIME - TRY SEPARATELYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TKTS NOT PRICED WITH SAME POS.POT OPTION - TRY SEPARATELYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TKTS WITH DIFFERENT PRICINGS - TRY SEPARATELYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ENTRY NOT AUTHORISEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /FARE AUDITOR INVALID REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /PAF-ONLY ONE PASSENGER TYPE IS ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /DOCUMENT NOT ELIGIBLE FOR SUBSEQUENT REISSUEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /SUBSEQUENT REISSUE - ORIGINAL FARE CONDITIONS NOT FOUNDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ORIGINAL FARE CONSTRUCTION IDENTIFICATION FAILEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ORIGINAL FARE CLASS IDENTIFICATION FAILEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TICKET ALREADY REISSUED - FURTHER REISSUE NOT ALLOWED BY CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MAXIMUM NUMBER OF PASSENGERS EXCEEDEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID DATEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /BAD DATE TYPE INDICATORUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNKNOWN FARE QUALIFIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNKNOWN CONVERSATION RATE TYPEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNKNOWN UNIFARE INDICATORUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNKNOWN CABIN BOOKING QUALIFIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO TICKETABLE VALIDATING CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NOT_A_SPLITTABLE_TRANSACTIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /BETTER_TO_NOT_SPLITUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REFUND PROVISIONS NOT FOUND/CHECK PRICING OPTIONSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHANGE OF PTC BETWEEN ISSUE AND REFUND IS FORBIDDENUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ORIGINAL FARE CALC MANUALLY MODIFIED REFUND FORBIDDENUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHANGE OF POS.POT BETWEEN ISSUE AND REFUND IS FORBIDDENUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TRANSACTION NOT ALLOWED ON REISSUED TICKETS- REFUND MANUALLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TRANSACTION NOT ALLOWED/REFUND MANUALLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /AWARD FARES CAN BE REISSUED TO AWARD FARES ONLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NON AWARD FARES CANNOT BE REISSUED TO AWARD FARESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO DATA FOUND IN SYSTEMUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CK LINE NUMBERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO PREVIOUS TRX FOUNDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK FORMAT OF SERVICE REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INTERLINE TICKETS UPGRADE NOT SUPPORTED BY ATCUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO VALID PRICING SOLUTION FOUNDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MISSING BANKER SELLING/IATA CLEARING HOUSE RATESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /SERVICE NOT PROPOSEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO PRICING POLICY FOR SERVICE (no S7)UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /PLEASE SPECIFY AGE FOR PASSENGERSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /AMOUNT OVERRIDE NOT SUPPORTED FOR THIS AIRLINEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /OPTION NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MILES AND CASH CONVERSION NOT AUTHORISEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNKNOWN CURRENCYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNKNOWN CURRENCY CONVERSION RATEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MISSING AMOUNT IN POINTS IN INPUTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO VALID CONVERSION RULEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TRANSACTION NOT ALLOWED ON AWARD TICKETS/REFUND MANUALLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO FARE FOUND FOR REQ ITINERARY - CUBA EMBARGO RESTRICTS MAY APPLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO JOURNEY FOUND FOR REQ ITINERARY - CUBA EMBARGO MAY APPLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID SERVICE CLASSIFICATION FOR SERVICE REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CHECK GROUP/SUB-GROUP/ATTRIBUTES FOR SERVICE REQUESTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CURRENCY OVERRIDE MISSINGUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /FIRST ISSUANCE ONLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID CONTEXT - PLEASE REPRICEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /AIRLINE FEES NOT ACTIVATEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /WL NOT COMBINABLE WITH THROUGH FARE PRECEDENCEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /YY FARE NOT ELIGIBLE TO AUTOMATIC REISSUEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /YY FARES USED - REFUND MANUALLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REFUNDING ONLY THE TAXES IS PROHIBITED IN YOUR MARKETUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ONLY ONE RE-ISSUE ALLOWED FOR PARTIALLY USED TKTSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TKT NOT ELIGIBLE TO MULTIPLE REISSUE AFT DEP WITH ATCUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TICKET ALREADY REISSUED - FURTHER REISSUE NOT ALLOWED BY CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /OPTION NOT PERMITTEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /FREQUENT FLYER PROGRAM OWNER MISSINGUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REISSUE NOT ALLOWED - CHECK NVA DATEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REISSUE AFTER EXPIRATION DATE IS NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ONE FREQUENT FLYER PROGRAM MUST BE REQUESTEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REISSUE MILES AND CASH NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /MISSING MANDATORY INFORMATIONUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /BAD INPUT FORMATUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ONE CARRIER AUTHORIZEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /PRICE FARE FAMILY CARRIER SEPARATELYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /FARE FAMILY OPTION NOT AUTHORIZEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REQUESTED CHANGE NOT ALLOWED BY CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /SOME VOLUNTARY CHANGES CRITERIA NOT AUTOMATED - REISSUE MANUALLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /REQUESTED CHANGE NOT ALLOWED BY AA CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ORIGINAL FARE CONDITIONS NOT FOUND - TRY ORIGINAL PRICING OPTIONSUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /ORIGINAL TICKET TAXES NOT AS EXPECTED - REISSUE MANUALLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NET AND SELLING AMOUNTS NOT EQUAL - REISSUE MANUALLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NET AND SELLING AMOUNTS NOT EQUAL - REFUND MANUALLYUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /INVALID TOUR CODEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNKNOWN TIER LEVEL NAMEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO DATA FOR CARRIERUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /EMBARGO APPLIESUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /CARRIER IN INPUT MUST TRANSPORT ON ONE INTERNATIONAL SEGMENTUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /PARTIALLY FLOWN TICKET MANUALLY REISSUED NOT AUDITABLEUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TKT not eligible to reissue after ATUUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /UPGRADE NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /DOWNGRADE NOT ALLOWEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /NO CURRENT FARE IN SYSTEM - EMBARGO APPLIEDUNABLE TO RE-PRICE /,</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="59" padisErrorCode="71I" padisSet="9321">
+<ErrorMessage>Invalid or missing fare calculation</ErrorMessage>
+<ContainsList>
+<Contains>Offer price cannot be calculated</Contains>
+<Contains>UNABLE TO RE-PRICE /TOO MANY EMD/REQUEST IN INPUTUNABLE TO RE-PRICE /</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="447" padisErrorCode="370" padisSet="9321">
+<ErrorMessage>Simultaneous changes to PNR</ErrorMessage>
+<ContainsList>
+<Contains>Unable to update - simultaneous updates</Contains>
+<Contains>FINISH OR IGNORE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="733" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Restricted</Contains>
+<Contains>RESTRICTED - FINISH OR IGNORE</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="151" padisErrorCode="371" padisSet="9321">
+<ErrorMessage>Prior PNR display required</ErrorMessage>
+<ContainsList>
+<Contains>Must recall booking first</Contains>
+<Contains>NEED PNR</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="85" padisErrorCode="467" padisSet="9321">
+<ErrorMessage>Flight segment not found in carrier’s PNR</ErrorMessage>
+<ContainsList>
+<Contains>Itinerary element does not exist</Contains>
+<Contains>RESTRICTED/ITINERARY DOES NOT EXIST</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="251" padisErrorCode="160" padisSet="9321">
+<ErrorMessage>Passenger Name in Message Does Not Match Name in Booking File/PNR</ErrorMessage>
+<ContainsList>
+<Contains>Last name and customer number do not match</Contains>
+<Contains>CHECK NAME ELEMENT NUMBER</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="251" padisErrorCode="160" padisSet="9321">
+<ErrorMessage>Passenger Name in Message Does Not Match Name in Booking File/PNR</ErrorMessage>
+<ContainsList>
+<Contains>Last name and customer number do not match</Contains>
+<Contains>CHECK NAME ELEMENT NUMBER - ITEMS EXCEEDED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>UNABLE TO SPLIT PARTY OF 1</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>INVALID TRANSACTION - TOO MANY NAMES</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>DUPLICATE ELEMENT XX</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>PASSENGER/SEGMENT ASSOCIATION EXISTS - CHECK ELEMENT XX</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>RESTRICTED-OPTION NOT ALLOWED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="528" padisErrorCode="327" padisSet="9321">
+<ErrorMessage>Invalid segment data in itinerary</ErrorMessage>
+<ContainsList>
+<Contains>Invalid segment data in itinerary</Contains>
+<Contains>CHECK ITINERARY/INACTIVE SEGMENT</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>CHECK ELEMENT XX - ITEMS EXCEEDED</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="450" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Unable to process</Contains>
+<Contains>CHECK ELEMENT XX AND ADVISE HANDLING</Contains>
+</ContainsList>
+</ErrorMapping>
+<ErrorMapping otaErrorCode="733" padisErrorCode="102" padisSet="9845">
+<ErrorMessage>Unable to process</ErrorMessage>
+<ContainsList>
+<Contains>Restricted</Contains>
+<Contains>RESTRICTED - ADDITIONAL SPLIT NOT ALLOWED</Contains>
+</ContainsList>
+</ErrorMapping>
+</ErrorMappings>
+
