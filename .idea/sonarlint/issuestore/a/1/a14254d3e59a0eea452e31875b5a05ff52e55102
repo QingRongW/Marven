@@ -1,41 +1,0 @@
-
-Psquid:S1199W"-Extract this nested code block into a method.(ÊìªÇıÿÿÿÿ8¥Ÿ„ .
-psquid:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Éæñ‹ÿÿÿÿÿ8¥Ÿ„ .
-usquid:S00117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òãˆ¸ÿÿÿÿÿ8¥Ÿ„ .
-usquid:S001176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à™†Çüÿÿÿÿ8¥Ÿ„ .
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¥Ÿ„ .
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¥Ÿ„ .
-Gsquid:S1148†"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¥Ÿ„ .
-Gsquid:S1148‹"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8¥Ÿ„ .
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Õñ‚—8¥Ÿ„ .
-dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(§íûÏıÿÿÿÿ8¥Ÿ„ .
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ä·Ñ´8¥Ÿ„ .
-Usquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8¥Ÿ„ .
-V
-squid:S106$"9Replace this use of System.out or System.err by a logger.(ôğ®©8¥Ÿ„ .
-9squid:S3626Q"Remove this redundant jump.(ÉŠ©ƒ8¥Ÿ„ .
-usquid:S3776."RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(éó»ìùÿÿÿÿ8¥Ÿ„ .
-[
-squid:S106/"9Replace this use of System.out or System.err by a logger.(¥‡­®øÿÿÿÿ8¥Ÿ„ .
-V
-squid:S1067"9Replace this use of System.out or System.err by a logger.(ÏÜ÷8¥Ÿ„ .
-V
-squid:S106<"9Replace this use of System.out or System.err by a logger.(Õ¶à8¥Ÿ„ .
-V
-squid:S106C"9Replace this use of System.out or System.err by a logger.(Ì½½Ë8¥Ÿ„ .
-[
-squid:S106K"9Replace this use of System.out or System.err by a logger.(èÉĞËüÿÿÿÿ8¥Ÿ„ .
-gsquid:CallToDeprecatedMethodT"3Remove this use of "getCellType"; it is deprecated.(óëÕŠùÿÿÿÿ8¥Ÿ„ .
-psquid:S3252V"RUse static access with "org.apache.poi.ss.usermodel.Cell" for "CELL_TYPE_NUMERIC".(è……å8¥Ÿ„ .
-hsquid:CallToDeprecatedMethodV"9Remove this use of "CELL_TYPE_NUMERIC"; it is deprecated.(è……å8¥Ÿ„ .
-usquid:S3252W"RUse static access with "org.apache.poi.ss.usermodel.Cell" for "CELL_TYPE_FORMULA".(ÊìªÇıÿÿÿÿ8¥Ÿ„ .
-msquid:CallToDeprecatedMethodW"9Remove this use of "CELL_TYPE_FORMULA"; it is deprecated.(ÊìªÇıÿÿÿÿ8¥Ÿ„ .
-vsquid:S3252Y"XUse static access with "org.apache.poi.ss.usermodel.DateUtil" for "isCellDateFormatted".(‚ğƒ8¥Ÿ„ .
-esquid:CallToDeprecatedMethod^"6Remove this use of "toLocaleString"; it is deprecated.(Ëº½³8¥Ÿ„ .
-tsquid:S3252q"QUse static access with "org.apache.poi.ss.usermodel.Cell" for "CELL_TYPE_STRING".(ÿ©å§ûÿÿÿÿ8¥Ÿ„ .
-lsquid:CallToDeprecatedMethodq"8Remove this use of "CELL_TYPE_STRING"; it is deprecated.(ÿ©å§ûÿÿÿÿ8¥Ÿ„ .
-[
-squid:S106}"9Replace this use of System.out or System.err by a logger.(ğÕçêûÿÿÿÿ8¥Ÿ„ .
-nsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(Æ·ÅĞøÿÿÿÿ8¥Ÿ„ .

@@ -1,22 +1,22 @@
 import java.util.*;
 
-class Node {
+class NodeContact {
     int count;
-    Node[] children;
+    NodeContact[] children;
 
-    Node() {
+    NodeContact() {
         this.count = 0;
-        this.children = new Node[26];
+        this.children = new NodeContact[26];
         Arrays.fill(children, null);
     }
 
-    public void insert(Node current, String value) {
+    public void insert(NodeContact current, String value) {
 
         for (char c : value.toCharArray()) {
             int index = c - 'a';
 
             if (current.children[index] == null) {
-                current.children[index] = new Node();
+                current.children[index] = new NodeContact();
             }
 
             current.children[index].count++;
@@ -30,7 +30,7 @@ class SolutionFinal {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        Node trie = new Node();
+        NodeContact trie = new NodeContact();
         int n = scan.nextInt();
 
         while (n-- > 0) {
@@ -42,7 +42,7 @@ class SolutionFinal {
             if (operation.equals("add")) {
                 trie.insert(trie, value);
             } else { // Search Operation
-                Node currentNode = trie;
+                NodeContact currentNode = trie;
 
                 // Traverse through each level
                 for (char c : value.toCharArray()) {

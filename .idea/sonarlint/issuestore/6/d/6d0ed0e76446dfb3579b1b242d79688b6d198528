@@ -1,4 +1,0 @@
-
-Žsquid:S1319	"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ò‹×Ê8Í¢›…š.
-Msquid:S5411"*Use the primitive boolean expression here.(þ¯û×øÿÿÿÿ8Í¢›…š.
-psquid:S3776	"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(Ò‹×Ê8Í¢›…š.

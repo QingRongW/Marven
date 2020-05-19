@@ -1,49 +1,0 @@
-
-qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ØÀÒã8ÇÜŞ¢.
-V
-squid:S106,"9Replace this use of System.out or System.err by a logger.(µìÏ8Ë‚É.
-V
-squid:S106N"9Replace this use of System.out or System.err by a logger.(ı»¦²8óğƒ¥.
-isquid:CommentedOutCodeLinep"<This block of commented-out lines of code should be removed.(åİ¢·8ÆÜè.
-Fsquid:S1148-"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ë‚É.
-~squid:S00115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’˜ÿÖıÿÿÿÿ8˜“¥£.
-lsquid:S20955"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ªíğù8§‹î¤.
-V
-squid:S106G"9Replace this use of System.out or System.err by a logger.(¡í©8ŸŞş¢.
-nsquid:CommentedOutCodeLineb"<This block of commented-out lines of code should be removed.(½‘”­ÿÿÿÿÿ8ÅêûÀ.
-Fsquid:S1148Y"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8óğƒ¥.
-ysquid:S00115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…È›ü8Ğ¢ó¢.
-qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Ù©´8Û´¹Ÿ.
-qsquid:ModifiersOrderCheck!"EReorder the modifiers to comply with the Java Language Specification.(…È›ü8Ğ¢ó¢.
-Qsquid:S1199„"-Extract this nested code block into a method.(Ïˆéåıÿÿÿÿ8óğƒ¥.
-psquid:S001179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚àßÔ8Ë‚É.
-vsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(€Û„ıÿÿÿÿ8®ğ¢.
-qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(˜ç õ8×‹Ï£.
-qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Ô¥ËÊ8ˆµºŸ.
-vsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Ìø˜Øøÿÿÿÿ8–šºŸ.
-ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(é†Ùõ8›Üİ¢.
-ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜ç õ8×‹Ï£.
-qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(»†Ú¸8¥Ñä¢.
-vsquid:ModifiersOrderCheck#"EReorder the modifiers to comply with the Java Language Specification.(’˜ÿÖıÿÿÿÿ8˜“¥£.
-vsquid:ModifiersOrderCheck""EReorder the modifiers to comply with the Java Language Specification.(È”Ûšúÿÿÿÿ8ƒÎ££.
-Psquid:S1068"2Remove this unused "OTA_DESC_INDEX" private field.(Ù©´8ÆÜè.
-Qsquid:S1199€"-Extract this nested code block into a method.(´ş•¸ùÿÿÿÿ8óğƒ¥.
-vsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(”‡öÿşÿÿÿÿ8×„ºŸ.
-Fsquid:S1148T"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óğƒ¥.
-ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰´¦µ8Ó¼Ù£.
-vsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(†ïúÿÿÿÿ8ˆÕŞ£.
-qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(‰´¦µ8Ó¼Ù£.
-usquid:S00117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à™†Çüÿÿÿÿ8áš¶¥.
-ksquid:S2095("MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(•ßÒä8Ë‚É.
-ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ØÀÒã8ÇÜŞ¢.
-~squid:S00115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È”Ûšúÿÿÿÿ8ƒÎ££.
-Fsquid:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ë‚É.
-vsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(´Şƒ²ÿÿÿÿÿ8«ğ¹Ÿ.
-psquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(‹û;8½Ü¸Ÿ.
-[
-squid:S106M"9Replace this use of System.out or System.err by a logger.(Í†‰½ûÿÿÿÿ8óğƒ¥.
-~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€Û„ıÿÿÿÿ8®ğ¢.
-qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(é†Ùõ8›Üİ¢.
-~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†ïúÿÿÿÿ8ˆÕŞ£.
-\
-squid:S106‰"9Replace this use of System.out or System.err by a logger.(¼ˆéĞüÿÿÿÿ8óğƒ¥.

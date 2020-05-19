@@ -1,8 +1,0 @@
-
-squid:S4165"cRemove this useless assignment; "right" already holds the assigned value along all execution paths.(Š• 8Çíæâ™.
-[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8—Û™™.
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ç€‚ûÿÿÿÿ8™¡Á˜™.
-wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æç»³8ïàÑŞ™.
-[
-squid:S106!"9Replace this use of System.out or System.err by a logger.(÷˜Ùıÿÿÿÿ8—Û™™.
-Usquid:S2589+"7Remove this expression which always evaluates to "true"(¬ƒÑ´8œ—Û™™.

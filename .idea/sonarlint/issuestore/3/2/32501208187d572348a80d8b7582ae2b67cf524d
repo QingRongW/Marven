@@ -1,20 +1,0 @@
-
-W
-squid:S106›"9Replace this use of System.out or System.err by a logger.(ã¾Ø8ãé¸Ç™.
-Lsquid:S1481{")Remove this unused "name" local variable.(¹¢Šìÿÿÿÿÿ8ä˜É™.
-?squid:S1643\"Use a StringBuilder instead.(ùÿ´ôúÿÿÿÿ8 “×Å™.
-nsquid:CommentedOutCodeLine_"<This block of commented-out lines of code should be removed.(ª¯ÊÁúÿÿÿÿ8œ¸úÇ™.
-?squid:S1643w"Use a StringBuilder instead.(ƒˆÉûÿÿÿÿÿ8ºä×È™.
-[squid:UselessImportCheck
-"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ì¸ÁÈ™.
-Jsquid:S1602G",Remove useless curly braces around statement(†§úé8•íüÄ™.
-Zsquid:S1854V"<Remove this useless assignment to local variable "searchDB".(¯Á‘ı8ş™Ç™.
-psquid:S2095ˆ"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ßéıÑşÿÿÿÿ8ãé¸Ç™.
-rsquid:S001008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ÌÁ”øÿÿÿÿ8ë£Å™.
-rsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éï×üÿÿÿÿ8ÇëàÄ™.
-isquid:S3027+"FPut single-quotes around ' ' to use the faster "indexOf(char)" method.(³Á‰ñÿÿÿÿÿ8ÇëàÄ™.
-rsquid:S00100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äšıüıÿÿÿÿ8ÅÔ¸Ç™.
-|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ËŠæÇşÿÿÿÿ8ÇëàÄ™.
-?squid:S1643"Use a StringBuilder instead.(ùÿ´ôúÿÿÿÿ8ÇëàÄ™.
-[squid:S1854{"8Remove this useless assignment to local variable "name".(¹¢Šìÿÿÿÿÿ8ä˜É™.
-Ksquid:S1481V"-Remove this unused "searchDB" local variable.(¯Á‘ı8ş™Ç™.
