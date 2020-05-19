@@ -1,6 +1,0 @@
-# Project exclude paths
-/target/
-.idea
-*.class
-*.xml
-*iml
