@@ -1,4 +1,13 @@
-import java.util.*;
+package btree;
+
+import common.Node;
+import utils.TreeUtils;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+import java.util.TreeMap;
 
 /**
  * Class used to print the topView of the BinaryTree from:
@@ -20,12 +29,12 @@ public class TopViewBTree {
             hd = nodeByItsHD.get(cur);
             if (cur.left != null) {
                 queue.add(cur.left);
-                nodeByItsHD.put(cur.left, hd-1);
+                nodeByItsHD.put(cur.left, hd - 1);
                 updateTreeMap(m, cur.left, hd - 1);
             }
             if (cur.right != null) {
                 queue.add(cur.right);
-                nodeByItsHD.put(cur.right, hd+1);
+                nodeByItsHD.put(cur.right, hd + 1);
                 updateTreeMap(m, cur.right, hd + 1);
             }
         }

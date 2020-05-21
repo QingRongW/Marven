@@ -1,3 +1,6 @@
+package utils;
+import common.Node;
+
 public class TreeUtils {
     /**
      * Method to insert a node.
@@ -22,3 +25,4 @@ public class TreeUtils {
         }
     }
 }
+
