@@ -1,39 +1,21 @@
 package btree;
 
+import common.Node;
+import utils.TreeUtils;
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
-class NodeTree {
-    NodeTree left;
-    NodeTree right;
-    int data;
+public class TreeTravel {
+    public static void levelOrder(Node root) {
 
-    NodeTree(int data) {
-        this.data = data;
-        left = null;
-        right = null;
-        right = null;
-    }
-}
-
-class SolutionTree {
-
-    /*
-    
-    class Node 
-        int data;
-        Node left;
-        Node right;
-    */
-    public static void levelOrder(NodeTree root) {
-
-        LinkedList<NodeTree> queue = new LinkedList<NodeTree>();
+        LinkedList<Node> queue = new LinkedList<Node>();
         queue.add(root);
         while (!queue.isEmpty()) {
-            NodeTree cur = queue.remove();
+            Node cur = queue.remove();
             System.out.print(cur.data + " ");
-            NodeTree left = cur.left;
-            NodeTree right = cur.right;
+            Node left = cur.left;
+            Node right = cur.right;
             if (left != null && right != null) {
                 cur = left;
                 queue.add(cur);
@@ -49,29 +31,13 @@ class SolutionTree {
 
     }
 
-    public static NodeTree insert(NodeTree root, int data) {
-        if (root == null) {
-            return new NodeTree(data);
-        } else {
-            NodeTree cur;
-            if (data <= root.data) {
-                cur = insert(root.left, data);
-                root.left = cur;
-            } else {
-                cur = insert(root.right, data);
-                root.right = cur;
-            }
-            return root;
-        }
-    }
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
-        NodeTree root = null;
+        Node root = null;
         while (t > 0) {
             int data = scan.nextInt();
-            root = insert(root, data);
+            root = TreeUtils.insert(root, data);
             t--;
         }
         scan.close();

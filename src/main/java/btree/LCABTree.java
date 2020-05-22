@@ -1,6 +1,7 @@
 package btree;
 
 import common.Node;
+import utils.TreeUtils;
 
 import java.util.*;
 
@@ -31,29 +32,13 @@ public class LCABTree {
             return root;
     }
 
-    public static Node insert(Node root, int data) {
-        if (root == null) {
-            return new Node(data);
-        } else {
-            Node cur;
-            if (data <= root.data) {
-                cur = insert(root.left, data);
-                root.left = cur;
-            } else {
-                cur = insert(root.right, data);
-                root.right = cur;
-            }
-            return root;
-        }
-    }
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
         Node root = null;
         while (t-- > 0) {
             int data = scan.nextInt();
-            root = insert(root, data);
+            root = TreeUtils.insert(root, data);
         }
         int v1 = scan.nextInt();
         int v2 = scan.nextInt();
