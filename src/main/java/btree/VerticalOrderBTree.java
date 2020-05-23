@@ -1,7 +1,7 @@
 package btree;
 
 import common.Node;
-import utils.TreeUtils;
+import utils.NodeUtils;
 
 import java.util.Map.Entry;
 import java.util.Scanner;
@@ -68,7 +68,7 @@ public class VerticalOrderBTree {
         Node root = null;
         while (t-- > 0) {
             int data = scan.nextInt();
-            root = TreeUtils.insert(root, data);
+            root = NodeUtils.insert(root, data);
         }
         scan.close();
         treeView(root);

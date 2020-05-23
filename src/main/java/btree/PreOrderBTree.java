@@ -1,7 +1,7 @@
 package btree;
 
 import common.Node;
-import utils.TreeUtils;
+import utils.NodeUtils;
 
 import java.util.Scanner;
 
@@ -27,7 +27,7 @@ public class PreOrderBTree {
         Node root = null;
         while (t-- > 0) {
             int data = scan.nextInt();
-            root = TreeUtils.insert(root, data);
+            root = NodeUtils.insert(root, data);
         }
         scan.close();
         PreOrderBTree.preOrder(root);

@@ -1,7 +1,7 @@
 package utils;
 import common.Node;
 
-public class TreeUtils {
+public class NodeUtils {
     /**
      * Method to insert a node.
      *

@@ -1,7 +1,7 @@
 package btree;
 
 import common.Node;
-import utils.TreeUtils;
+import utils.NodeUtils;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -56,7 +56,7 @@ public class TopViewBTree {
         Node root = null;
         while (t-- > 0) {
             int data = scan.nextInt();
-            root = TreeUtils.insert(root, data);
+            root = NodeUtils.insert(root, data);
         }
         scan.close();
         /*BTreePrinter.printNode(root);*/

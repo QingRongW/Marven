@@ -1,7 +1,7 @@
 package btree;
 
 import common.Node;
-import utils.TreeUtils;
+import utils.NodeUtils;
 
 import java.util.*;
 
@@ -38,7 +38,7 @@ public class LCABTree {
         Node root = null;
         while (t-- > 0) {
             int data = scan.nextInt();
-            root = TreeUtils.insert(root, data);
+            root = NodeUtils.insert(root, data);
         }
         int v1 = scan.nextInt();
         int v2 = scan.nextInt();
