@@ -1,5 +1,5 @@
 package contants;
 
-public class Common {
+public class Path {
     public static final String OUTPATH = "src/main/out/output.txt";
 }

@@ -1,6 +1,6 @@
 package stack.medium;
 
-import contants.Common;
+import contants.Path;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -29,7 +29,7 @@ public class LargestRectangle {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(Common.OUTPATH));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(Path.OUTPATH));
 
         int n = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");

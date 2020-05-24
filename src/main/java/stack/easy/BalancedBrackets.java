@@ -3,7 +3,7 @@ package stack.easy;
 import java.io.IOException;
 import java.util.Scanner;
 
-class SolutionBB {
+class BalancedBrackets {
 
     static boolean match(char left, char right) {
         boolean match = false;
