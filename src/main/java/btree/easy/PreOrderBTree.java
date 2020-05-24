@@ -1,4 +1,4 @@
-package btree;
+package btree.easy;
 
 import common.Node;
 import utils.NodeUtils;

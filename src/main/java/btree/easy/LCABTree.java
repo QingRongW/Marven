@@ -1,5 +1,6 @@
-package btree;
+package btree.easy;
 
+import utils.BTreePrinter;
 import common.Node;
 import utils.NodeUtils;
 

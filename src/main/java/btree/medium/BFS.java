@@ -1,4 +1,4 @@
-package btree;
+package btree.medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-class Solution {
+class BFS {
     public static class Graph {
 
         ArrayList<HashSet<Integer>> nodes;

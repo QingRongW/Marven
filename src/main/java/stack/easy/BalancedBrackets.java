@@ -1,3 +1,5 @@
+package stack.easy;
+
 import java.io.IOException;
 import java.util.Scanner;
 

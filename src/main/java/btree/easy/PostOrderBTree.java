@@ -1,11 +1,11 @@
-package btree;
+package btree.easy;
 
 import common.Node;
 import utils.NodeUtils;
 
 import java.util.Scanner;
 
-public class InOrderBTree {
+public class PostOrderBTree {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -16,15 +16,17 @@ public class InOrderBTree {
             root = NodeUtils.insert(root, data);
         }
         scan.close();
-        inOrder(root);
+        postOrder(root);
     }
 
-    public static void inOrder(Node root) {
+    public static void postOrder(Node root) {
         if (root == null) {
             return;
+        } else {
+            postOrder(root.left);
+            postOrder(root.right);
+            System.out.print(root.data + " ");
         }
-        inOrder(root.left);
-        System.out.print(root.data + " ");
-        inOrder(root.right);
     }
+
 }

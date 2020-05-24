@@ -1,7 +1,8 @@
-import java.util.Arrays;
+package array.easy;
+
 import java.util.Scanner;
 
-class SolutionSort {
+class Sort {
 
 
     private static int[] insertItem(int[] a, int aItem, int len) {
