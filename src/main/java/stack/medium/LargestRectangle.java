@@ -5,25 +5,66 @@ import contants.Path;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.List;
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Stack;
 
 
 public class LargestRectangle {
     // Complete the largestRectangle function below.
-    static long largestRectangle(int[] h) {
-        // TODO
-        return -1;
-    }
+    static long largestRectangle(int[] height) {
+        // prepare the data
+        int maxArea = 0;
+        int n = height.length;
+        height = Arrays.copyOf(height, n + 1);
+        height[n] = 0;
 
-    private static int minValue(List<Integer> list) {
-        int min = Integer.MAX_VALUE;
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) < min) {
-                min = list.get(i);
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < height.length; i++) {
+            int curHeight = height[i];
+            if (stack.isEmpty() || height[stack.peek()] < curHeight) {
+                stack.push(i);
+            } else {
+                while (!stack.isEmpty()) {
+                    int stackTop = stack.pop();
+                    int width;
+                    if (stack.isEmpty()) {
+                        width = i;
+                    } else {
+                        width = i - stack.peek() - 1;
+                    }
+                    maxArea = Math.max(maxArea, width * height[stackTop]);
+                    if (stack.isEmpty() || curHeight > height[stack.peek()]) {
+                        stack.push(i);
+                        break;
+                    }
+                }
             }
         }
-        return min;
+        return maxArea;
+    }
+
+
+    static long largestRectangle_Standard(int[] height) {
+        Stack<Integer> s = new Stack<>();
+        int len = height.length;
+        height = Arrays.copyOf(height, len + 1);
+        height[len] = 0;
+
+        long sum = 0;
+        int i = 0;
+        while (i < height.length) {
+            if (s.isEmpty() || height[i] > height[s.peek()]) {
+                s.push(i);
+                i++;
+            } else {
+                int t = s.peek();
+                s.pop();
+                sum = Math.max(sum, height[t] * (s.empty() ? i : i - s.peek() - 1));
+            }
+
+        }
+        return sum;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
